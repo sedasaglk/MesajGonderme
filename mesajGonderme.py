@@ -1,6 +1,6 @@
 import requests
 while True:
-    kime = input("kim:")
+    gonderilecekNumara = input("kim:")
     mesaj = input("mesaj:")
     if " " in kime or mesaj == "":
         break
